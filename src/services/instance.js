@@ -1,7 +1,8 @@
 import axios from "axios";
+import BACKEND_URL from "../utils/config";
 
 // Defining the base URl
-const baseURL = "";
+const baseURL = `${BACKEND_URL}/api/v1`;
 
 // Creating an axios instance
 const instance = axios.create({

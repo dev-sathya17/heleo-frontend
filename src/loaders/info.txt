@@ -1,1 +1,0 @@
-this folder will contain all loader function required to fetch data on loading the component 
