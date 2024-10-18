@@ -7,6 +7,15 @@ const Dashboard = () => {
       <button>
         <NavLink to={"/admin/users"}>Manage Users</NavLink>
       </button>
+      <button>
+        <NavLink to={"/admin/courses"}>Manage Courses</NavLink>
+      </button>
+      <button>
+        <NavLink to={"/admin/books"}>Manage Books</NavLink>
+      </button>
+      <button>
+        <NavLink to={"/admin/leads"}>Manage Leads</NavLink>
+      </button>
     </div>
   );
 };
